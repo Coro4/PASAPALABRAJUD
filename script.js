@@ -81,8 +81,8 @@ const bd_juego = [
   },
   {
     id:'P',
-    pregunta:"COMENÇA per P. La nostra constel·lació preferida.",
-    respuesta:"PUTA"
+    pregunta:"COMENÇA per P. Dolç preferit de la petita Petita Jud.",
+    respuesta:"PUXULATA"
   },
   {
     id:'Q',
@@ -111,7 +111,7 @@ const bd_juego = [
   },
   {
     id:'V',
-    pregunta:"COMENÇA per V. Castellanisme d'un MUST a l'habitació de la Petita Jud, que se les fundeix.",
+    pregunta:"COMENÇA per V. Castellanisme d'un MUST a l'habitació de la Petita Jud, que se les fundeix. (EN SINGULAR)",
     respuesta:"VELA"
   },
   {
@@ -131,8 +131,8 @@ const bd_juego = [
   },
   {
     id:'Z',
-    pregunta:"COMENÇA per Z. No ens caldrà anar a aquest lloc per veure tots els animals que veurem a Bali. ",
-    respuesta:"ZOO"
+    pregunta:"COMENÇA per Z. La nostra constel·lació preferida.",
+    respuesta:"ZORRA"
   },
 ]
 
