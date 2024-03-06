@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>PASAPALABRA</title>
+</head>
+<body>
+    <section id="pantalla-inicial">
+        <h1>JUD'S PASAPALABRA</h1>
+        <button id="comenzar">COMENÇAR</button>
+    </section>
+
+    <section id="pantalla-juego">
+        <div class="container">
+            <span id="tiempo">500</span>
+        </div>
+        <div class="contendor-pregunta">
+            <span id="letra-pregunta">Z</span>
+            <h2 id="pregunta">Pregunta...</h2>
+            <input type="text" id="respuesta">
+            <div class="botones">
+                <button id="responder">RESPONDRE</button>
+                <button id="pasar">PASAPARAULA</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="pantalla-juego2">
+        <div class="container2">
+        </div>
+        <div class="contendor-pregunta2">
+            <span id="letra-pregunta2">Z</span>
+            <h2 id="pregunta2">Pregunta...</h2>
+            <input type="text" id="respuesta2">
+            <div class="botones2">
+                <button id="responder2">RESPONDRE</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="pantalla-final">
+        <h1>RESULTAT</h1>
+        <div class="resultados">
+            <span id="Aciertos"></span>
+            <span id="Fallos"></span>
+            <span id="SinResponder"></span>
+        </div>          
+        <h3 id="score"></h3>
+        <div class="contenedor-botones">
+            <button id="finikitar">REPETIR LES PREGUNTES FALLADES O PASSADES</button>
+            <button id="recomenzar">COMENÇAR DE NOU</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
