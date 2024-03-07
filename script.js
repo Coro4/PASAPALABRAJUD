@@ -302,7 +302,7 @@ function mostrarPantallaFinal(){
   if (cantidadAcertadas<=20){
     document.getElementById("score").textContent = "Pots fer-ho millor ;)";
   } else if (cantidadAcertadas==26){
-    document.getElementById("score").textContent = "OLÉ! FINIKITAO :) PER MOLTS ANYS PETITA JUD!";
+    document.getElementById("score").textContent = "OLÉ! FINIKITAO :) PER MOLTS ANYS PETITA JUD! FELIÇOS 23 <3";
   } else {
     document.getElementById("score").textContent = "Força bé per la teva edat.";
   }
