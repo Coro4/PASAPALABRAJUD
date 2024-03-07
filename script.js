@@ -121,7 +121,7 @@ const bd_juego = [
   },
   {
     id:'X',
-    pregunta:"COMENÇA per X. Munchies que ens encanten.",
+    pregunta:"COMENÇA per X. Munchies amargs que ens encanten. En bosses, i amb sucre.",
     respuesta:"XUXES"
   },
   {
